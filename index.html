@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roashan Mosses — Data Engineer & Web Developer</title>
+  <meta name="description" content="Roashan Mosses is an aspiring data engineer and web developer from Sri Lanka, building data-driven products with Python, SQL and JavaScript.">
+  <meta name="theme-color" content="#0a0b0a">
+  <meta property="og:title" content="Roashan Mosses — Data Engineer & Web Developer">
+  <meta property="og:description" content="Building data pipelines and the products that use them.">
+  <meta property="og:image" content="assets/easyfy-dashboard.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo" aria-label="Roashan Mosses, back to top">RM<span>.</span></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container">
+        <p class="eyebrow reveal"><span class="pulse" aria-hidden="true"></span>Open to entry-level data &amp; software roles</p>
+        <h1 class="hero__title reveal">
+          Building <em>data pipelines</em><br>
+          &amp; the products<br class="br-desktop"> that use them.
+        </h1>
+        <div class="hero__bottom reveal">
+          <p class="hero__lead">I'm <strong>Roashan Mosses</strong> — an aspiring data engineer and full-stack web developer. I turn messy information into clean, reliable systems and interfaces people actually enjoy using.</p>
+          <div class="hero__actions">
+            <a href="#work" class="btn btn--primary">View selected work <span aria-hidden="true">↓</span></a>
+            <a href="https://github.com/RoashanMosses" class="btn btn--ghost" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <dl class="hero__meta reveal">
+          <div><dt>Based in</dt><dd>Sri Lanka</dd></div>
+          <div><dt>Local time</dt><dd id="local-time">—</dd></div>
+          <div><dt>Focus</dt><dd>Python · SQL · JavaScript</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Python</span><i>✦</i><span>SQL</span><i>✦</i><span>Data Pipelines</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>PHP</span><i>✦</i><span>MySQL</span><i>✦</i><span>Jupyter</span><i>✦</i><span>HTML &amp; CSS</span><i>✦</i><span>Git</span><i>✦</i>
+        <span>Python</span><i>✦</i><span>SQL</span><i>✦</i><span>Data Pipelines</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>PHP</span><i>✦</i><span>MySQL</span><i>✦</i><span>Jupyter</span><i>✦</i><span>HTML &amp; CSS</span><i>✦</i><span>Git</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index">01</span>
+          <h2>Selected <em>work</em></h2>
+          <p>A closer look at what I've been building.</p>
+        </header>
+
+        <article class="case reveal">
+          <div class="case__visual">
+            <figure class="browser">
+              <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span>localhost:4320</span></div>
+              <img src="assets/easyfy-dashboard.png" alt="EasyFy dashboard showing net cash flow, income, expenses, a repayment reminder, recent activity and a spending breakdown donut chart" width="1440" height="900" loading="lazy">
+            </figure>
+            <figure class="phone">
+              <img src="assets/easyfy-mobile.png" alt="EasyFy on a phone, with a collapsed top navigation and stacked summary cards" width="390" height="844" loading="lazy">
+            </figure>
+          </div>
+
+          <div class="case__body">
+            <div class="case__title">
+              <p class="case__label">Featured project · In active development</p>
+              <h3>EasyFy</h3>
+              <p class="case__tagline">A calm, privacy-first expense tracker for bank accounts, debit cards and credit-card repayments.</p>
+            </div>
+
+            <div class="case__grid">
+              <div>
+                <h4>The problem</h4>
+                <p>Spending is scattered across accounts and cards, and credit-card due dates are easy to miss. Most trackers either ask for bank logins or bury the essentials.</p>
+              </div>
+              <div>
+                <h4>The approach</h4>
+                <p>A zero-dependency Node.js API with a vanilla JS dashboard. One screen keeps spending, balances and the next repayment in view, using masked card details only.</p>
+              </div>
+            </div>
+
+            <ul class="case__stats">
+              <li><strong>0</strong><span>runtime dependencies</span></li>
+              <li><strong>¢</strong><span>integer minor-unit money, no float errors</span></li>
+              <li><strong>3</strong><span>responsive layouts: desktop, tablet, phone</span></li>
+              <li><strong class="mono-stat">A11y</strong><span>keyboard dialogs, reduced motion, ARIA</span></li>
+            </ul>
+
+            <ul class="case__details">
+              <li>Rejects raw card numbers, CVVs and PINs at the API boundary</li>
+              <li>Strict security headers and a Content-Security-Policy</li>
+              <li>Due-date tracking with overdue and urgent states</li>
+              <li>Unit-tested with Node's built-in test runner</li>
+            </ul>
+
+            <div class="case__footer">
+              <ul class="tags" aria-label="Technologies">
+                <li>Node.js</li><li>JavaScript</li><li>REST API</li><li>CSS</li><li>node:test</li>
+              </ul>
+              <a href="https://github.com/RoashanMosses/EasyFy" class="btn btn--primary" target="_blank" rel="noopener">View code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <a href="https://github.com/RoashanMosses?tab=repositories" class="more reveal" target="_blank" rel="noopener">
+          <span>More projects &amp; experiments on GitHub</span>
+          <span class="more__arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <header class="section__head reveal">
+          <span class="section__index">02</span>
+          <h2>Two crafts, <em>one mindset</em></h2>
+        </header>
+        <div class="about__text reveal">
+          <p class="about__big">I care about what happens to data <em>before</em> it reaches a chart — and how it feels once it does.</p>
+          <p>I'm early in my career and learning fast. On the data side I'm building a foundation in Python, SQL and statistics, working toward designing pipelines that are reliable, well-tested and easy to reason about. On the web side I build full-stack apps end to end, from APIs and validation to accessible, responsive interfaces.</p>
+          <p>That combination is the point: data engineers who understand the product, and developers who respect the data.</p>
+        </div>
+        <div class="pillars">
+          <div class="pillar reveal">
+            <span class="pillar__icon" aria-hidden="true">⌗</span>
+            <h3>Data engineering</h3>
+            <ul><li>Python &amp; SQL for data processing</li><li>Data modelling &amp; relational databases</li><li>Statistics for data analysis</li><li>Notebooks for exploration (Jupyter)</li></ul>
+          </div>
+          <div class="pillar reveal">
+            <span class="pillar__icon" aria-hidden="true">◐</span>
+            <h3>Web development</h3>
+            <ul><li>REST APIs with Node.js &amp; PHP</li><li>Input validation &amp; secure defaults</li><li>Responsive, accessible front-ends</li><li>Testing &amp; version control with Git</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section" id="stack">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index">03</span>
+          <h2>Tools I <em>work with</em></h2>
+        </header>
+        <div class="stack">
+          <div class="stack__group reveal"><h3>Languages</h3><ul><li>Python</li><li>SQL</li><li>JavaScript</li><li>PHP</li><li>HTML / CSS</li></ul></div>
+          <div class="stack__group reveal"><h3>Data</h3><ul><li>MySQL</li><li>Jupyter</li><li>Pandas</li><li>Statistics</li></ul></div>
+          <div class="stack__group reveal"><h3>Backend</h3><ul><li>Node.js</li><li>REST APIs</li><li>PHP</li></ul></div>
+          <div class="stack__group reveal"><h3>Workflow</h3><ul><li>Git &amp; GitHub</li><li>Linux</li><li>VS Code</li><li>AI-assisted dev</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section" id="journey">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index">04</span>
+          <h2>The <em>journey</em> so far</h2>
+        </header>
+        <ol class="timeline">
+          <li class="reveal"><span class="timeline__tag">Foundation</span><h3>Learning to code</h3><p>Started with HTML, CSS and JavaScript, then moved into Python and SQL with a growing interest in how data moves through systems.</p></li>
+          <li class="reveal"><span class="timeline__tag">Full-stack</span><h3>Building real web apps</h3><p>Built database-backed PHP sites with booking flows and admin dashboards, working with forms, sessions and relational data models.</p></li>
+          <li class="reveal"><span class="timeline__tag">Now</span><h3>EasyFy &amp; data foundations</h3><p>Shipping EasyFy with production-grade habits: tests, validation, security headers and accessibility. Deepening Python, SQL and statistics.</p></li>
+          <li class="reveal timeline__next"><span class="timeline__tag">Next</span><h3>Data pipelines at scale</h3><p>ETL/ELT workflows, orchestration, data warehousing and cloud platforms — and my first role on a data team.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="hero__glow hero__glow--contact" aria-hidden="true"></div>
+      <div class="container">
+        <p class="eyebrow reveal">05 — Contact</p>
+        <h2 class="contact__title reveal">Let's build <em>something</em><br>worth using.</h2>
+        <p class="contact__lead reveal">I'm looking for entry-level opportunities in data engineering and software development. If you're hiring or just want to talk shop, I'd love to hear from you.</p>
+        <div class="contact__actions reveal">
+          <!-- TODO: add your real email address, uncomment, and change the GitHub button below to btn--ghost
+          <a href="mailto:hello@example.com" class="btn btn--primary btn--lg" id="email-link">Say hello <span aria-hidden="true">→</span></a> -->
+          <a href="https://github.com/RoashanMosses" class="btn btn--primary btn--lg" target="_blank" rel="noopener">Find me on GitHub <span aria-hidden="true">↗</span></a>
+          <!-- TODO: add your LinkedIn profile URL and uncomment
+          <a href="https://www.linkedin.com/in/your-handle" class="btn btn--ghost btn--lg" target="_blank" rel="noopener">LinkedIn ↗</a> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Roashan Mosses</span>
+      <span>Designed &amp; built by hand · No frameworks</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
